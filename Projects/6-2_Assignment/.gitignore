@@ -1,0 +1,33 @@
+# Visual Studio workspace
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+Win32/
+ipch/
+
+# Compiled artifacts
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+*.tmp
+*.exe
+
+# Platform files
+.DS_Store

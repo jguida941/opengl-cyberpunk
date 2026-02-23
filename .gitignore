@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# JetBrains
+.idea/
+
+# Visual Studio cache and user settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Build outputs
+Debug/
+Release/
+x64/
+x86/
+ipch/
+*.obj
+*.idb
+*.ilk
+*.pch
+*.pdb
+*.exp
+*.libdude
+*.dll
+*.exe
