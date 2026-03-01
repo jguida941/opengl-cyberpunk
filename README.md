@@ -1,4 +1,4 @@
-# OpenGL Cyberpunk Scene (6-2 Assignment)
+# OpenGL Cyberpunk Scene
 
 This repository contains a single OpenGL project: a stylized cyberpunk version of the 6-2 assignment scene.
 
