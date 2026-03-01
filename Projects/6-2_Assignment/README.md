@@ -1,8 +1,7 @@
+# OpenGL 6-2 Assignment: Cyberpunk Scene
 
-# CS-330 6-2 Assignment: Cyberpunk Scene
+This project restyles the 6-2 OpenGL scene into a cyberpunk visual direction.
 
-This project is the SNHU CS-330 6-2 scene restyled into a cyberpunk look.
-c/Users/jguida941/Downloads/CS330Content-
 ![Final cyberpunk render](assets/cyberpunk-final.png)
 
 ## Project Summary

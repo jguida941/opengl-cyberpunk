@@ -1,35 +1,52 @@
-# CS330 Content
+# OpenGL Cyberpunk Scene (6-2 Assignment)
 
-This repository contains course work and utilities for CS-330 Computational Graphics and Visualization.
+This repository contains a single OpenGL project: a stylized cyberpunk version of the 6-2 assignment scene.
 
-## What Is In This Repo
+![Final cyberpunk render](Projects/6-2_Assignment/assets/cyberpunk-final.png)
 
-- `3DShapes/`: shared primitive mesh code used by projects
-- `Libraries/`: bundled OpenGL-related third-party libraries
-- `Projects/`: milestone and assignment projects (`1-2` through `8-2`)
-- `Utilities/7-1_FinalProject/`: final project scene (picnic table + soda can + pizza + dice + ball)
+## Repository Layout
 
-## Recent Scene Detail Update
+- `3DShapes/`: shared primitive mesh code used by the scene
+- `Libraries/`: bundled OpenGL dependencies (GLFW, GLEW, GLM)
+- `Projects/6-2_Assignment/`: the only assignment project in this repo
+- `Utilities/`: shared utility code used by the project (including shader helpers)
+- `setup-macos.command` / `setup-windows.ps1`: environment setup scripts
 
-The final project has been updated back to higher polygon detail for visible mesh elements:
+## Scene Summary
 
-- soda can rim uses torus rings again
-- dice pips use sphere meshes again
-- torus segment density increased (`64 x 64`)
+The project starts from the 6-2 assignment base and applies a cyberpunk visual direction:
 
-## Quick Setup
+- light-purple ground plane
+- neon-inspired object colors
+- cyan and magenta lighting contrast
+- deep purple-black background tone
 
-Run one of these scripts from the repo root:
+## What Was Built
 
-- macOS:
-  - Double-click `setup-macos.command` in Finder
-  - or run `bash setup-macos.command`
-- Windows (PowerShell):
-  - `powershell -ExecutionPolicy Bypass -File .\setup-windows.ps1`
+- stylized 3D seesaw composition using primitive meshes
+- shader-lit materials with custom color tuning
+- camera movement with mouse-look interaction
 
-## Build/Open Notes
+## Build And Run (Windows)
 
-This coursework is primarily configured with Visual Studio solution files (`.sln`, `.vcxproj`).
+1. Open `Projects/6-2_Assignment/6-2_Assignment.sln` in Visual Studio 2022.
+2. Set configuration to `Debug` and platform to `Win32`.
+3. Press `F5` to build and run.
 
-- Recommended on Windows: open `Utilities/7-1_FinalProject/7-1_FinalProjectMilestones.sln`
-- On macOS: use the setup script to install tooling and dependencies, then build/port with your preferred OpenGL workflow.
+Optional helper scripts:
+
+- `Projects/6-2_Assignment/scripts/open-solution.bat`
+- `Projects/6-2_Assignment/scripts/build-and-run.ps1`
+
+## Controls
+
+- `W` / `A` / `S` / `D`: move camera
+- `Mouse`: look around
+- `TAB`: toggle mouse capture
+- `ESC`: close application
+
+## Requirements
+
+- Windows 10 or Windows 11
+- Visual Studio 2022 with Desktop development with C++
+- OpenGL-compatible GPU and drivers
