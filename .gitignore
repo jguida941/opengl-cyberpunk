@@ -28,3 +28,6 @@ ipch/
 *.libdude
 *.dll
 *.exe
+
+# Archive artifacts
+*.zip

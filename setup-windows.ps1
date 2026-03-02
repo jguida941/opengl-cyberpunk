@@ -21,14 +21,14 @@ Write-Host "If VS is not installed, run the Visual Studio installer and add the 
 New-Item -ItemType Directory -Force -Path (Join-Path $root "build") | Out-Null
 New-Item -ItemType Directory -Force -Path (Join-Path $root "out") | Out-Null
 
-$finalSln = Join-Path $root "Utilities\7-1_FinalProject\7-1_FinalProjectMilestones.sln"
-if (Test-Path $finalSln) {
+$assignmentSln = Join-Path $root "Projects\6-2_Assignment\6-2_Assignment.sln"
+if (Test-Path $assignmentSln) {
     Write-Host ""
     Write-Host "Setup complete."
-    Write-Host "Opening final project solution..."
-    Start-Process $finalSln
+    Write-Host "Opening 6-2 assignment solution..."
+    Start-Process $assignmentSln
 } else {
     Write-Host ""
-    Write-Host "Setup complete, but final project solution was not found at:"
-    Write-Host "  $finalSln"
+    Write-Host "Setup complete, but 6-2 assignment solution was not found at:"
+    Write-Host "  $assignmentSln"
 }

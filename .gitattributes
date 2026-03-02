@@ -1,0 +1,7 @@
+# Keep GitHub language stats focused on assignment code you wrote.
+Libraries/** linguist-vendored
+
+# Third-party single-header utilities.
+Utilities/stb_image.h linguist-vendored
+Utilities/linmath.h linguist-vendored
+Utilities/sw_version.h linguist-vendored
